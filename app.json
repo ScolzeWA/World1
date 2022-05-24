@@ -27,12 +27,10 @@
             "value": "WORLD_MUSIC_F",
             "required": false
         },
-        "ALIVE_NAME": {
-            "description": "PUT YOUR BOT NAME .",
-            "value": "𝑾𝑶𝑹𝑳𝑫 𝑴𝑼𝑺𝑰𝑪 💗ˣ",
-            "required": false
-            
-        },
+        "ALIVE_IMG": {
+            "description": "ضع لينك صورة حساب مطور البوت من هنا @T_ELEGRAPH00BOT",
+            "required": true
+            },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
             "value": "𝑾𝑶𝑹𝑳𝑫 𝑴𝑼𝑺𝑰𝑪 💗ˣ",
