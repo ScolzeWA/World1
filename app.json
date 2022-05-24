@@ -34,7 +34,7 @@
             
         },
          "BOT_PHOTO": {
-            "description": "ضع لينك صورة البوت من هنا @T_ELEGRAPH00BOT",
+            "description": "ضع لينك صورة البوت هنا",
             "required": true
         },
          "BOT_NAME": {
