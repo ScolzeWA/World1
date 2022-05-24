@@ -9,6 +9,7 @@ from config import (
     BOT_USERNAME,
     BOT_PHOTO,
     GROUP_SUPPORT,
+    DEV_USER,
     OWNER_NAME,
     UPDATES_CHANNEL,
 )
@@ -69,7 +70,7 @@ async def start_private(client: Client, message: Message):
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/WORLD_MUSIC_F"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/{DEV_USER}"),
                 ],
                 [
                     InlineKeyboardButton(
