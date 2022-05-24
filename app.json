@@ -57,6 +57,10 @@
             "value": "Ch_World_Music",
             "required": true
         },
+         "DEV_USER": {
+            "description": "ضع هنا يوزر المطور",
+            "required": true
+        },
     
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
