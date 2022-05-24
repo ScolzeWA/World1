@@ -17,6 +17,7 @@ OWNER_NAME = getenv("OWNER_NAME", "𝑾𝑶𝑹𝑳𝑫 𝑴𝑼𝑺𝑰𝑪 �
 ALIVE_NAME = getenv("ALIVE_NAME", "𝑾𝑶𝑹𝑳𝑫 𝑴𝑼𝑺𝑰𝑪 💗ˣ")
 BOT_USERNAME = getenv("BOT_USERNAME", "WorldMusicly_Bot")
 BOT_PHOTO = getenv("BOT_PHOTO")
+DEV_USER = getenv("DEV_USER")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "World_Musicly")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Gr_World_Music")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Ch_World_Music")
