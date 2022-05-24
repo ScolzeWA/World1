@@ -58,7 +58,7 @@
             "required": true
         },
          "DEV_USER": {
-            "description": "ضع هنا يوزر المطور",
+            "description": "ضع هنا يوزر المطور من غير @",
             "required": true
         },
     
