@@ -33,6 +33,13 @@
             "required": false
             
         },
+        "ALIVE_IMG}": {
+
+            "description": "PUT YOUR BOT NAME .".
+            "value": "𝑾𝑶𝑹𝑳𝑫 𝑴𝑼𝑺𝑰𝑪 💗ˣ",
+            "required": false
+
+        },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
             "value": "𝑾𝑶𝑹𝑳𝑫 𝑴𝑼𝑺𝑰𝑪 💗ˣ",
