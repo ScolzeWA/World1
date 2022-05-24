@@ -7,6 +7,7 @@ from config import (
     ALIVE_NAME,
     BOT_NAME,
     BOT_USERNAME,
+    BOT_PHOTO,
     GROUP_SUPPORT,
     OWNER_NAME,
     UPDATES_CHANNEL,
@@ -51,7 +52,7 @@ async def _human_time_duration(seconds):
 )
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
-        photo=f"{ALIVE_IMG}",
+        photo=f"{BOT_PHOTO}",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
@@ -105,7 +106,7 @@ async def start_group(client: Client, message: Message):
     alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n🍀 Uptime Status: `{uptime}`\n\n**𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝗱𝗱𝗶𝗻𝗴 𝗺𝗲 𝗵𝗲𝗿𝗲, 𝗳𝗼𝗿 𝗽𝗹𝗮𝘆𝗶𝗻𝗴 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁** ❤"
 
     await message.reply_photo(
-        photo=f"{ALIVE_IMG}",
+        photo=f"{BOT_PHOTO}",
         caption=alive,
         reply_markup=keyboard,
     )
