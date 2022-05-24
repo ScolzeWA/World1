@@ -33,6 +33,10 @@
             "required": false
             
         },
+         "BOT_PHOTO": {
+            "description": "ضع لينك صورة البوت من هنا @T_ELEGRAPH00BOT",
+            "required": true
+        },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
             "value": "𝑾𝑶𝑹𝑳𝑫 𝑴𝑼𝑺𝑰𝑪 💗ˣ",
